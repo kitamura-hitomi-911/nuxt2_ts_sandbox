@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'nuxt2_ts_sandbox',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
@@ -28,8 +28,9 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
+    ['@nuxt/typescript-build', { typeCheck: false }],
+    '@nuxtjs/composition-api/module',
+    'unplugin-vue2-script-setup/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
