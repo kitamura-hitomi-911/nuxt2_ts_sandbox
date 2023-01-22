@@ -15,13 +15,7 @@
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
-    "types": [
-      "@nuxt/types",
-      "@nuxtjs/axios",
-      "@types/node",
-      "unplugin-vue2-script-setup/types",
-      "jest"
-    ]
+    "types": ["@nuxt/types", "@nuxtjs/axios", "@types/node", "jest"]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }
