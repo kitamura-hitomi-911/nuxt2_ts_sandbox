@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="modal">
     aaa<br />isOpen:{{ isOpen }}<br />
 
     <a href="#" @click.prevent="onOk">モーダル内OK</a>

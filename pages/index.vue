@@ -2,7 +2,7 @@
   <div>
     <RoundNum />
     <Modal name="aaa"></Modal>
-    <a href="#" @click.prevent="openModal('aaa')">開く</a>
+    <a href="#" @click.prevent="openModal('aaa')" class="open_modal">開く</a>
     <a href="#" @click.prevent="closeModal('aaa')">閉じる</a>
     <a href="#" @click.prevent="openDialogInLocal">ダイアログ開く</a>
   </div>
